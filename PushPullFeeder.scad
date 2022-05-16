@@ -2455,7 +2455,7 @@ function inset_profile(cover=true) = [
 
 if (do_inset) {
     
-    color([0,0.7,0,0.6]) {
+    color([0,0,0.7,0.6]) {
         translate([
             debug_eff ? 0 : -base_begin+reel_x+reel_washer+gap, 
             debug_eff ? 0 : reel_y-base_height-gap, 
